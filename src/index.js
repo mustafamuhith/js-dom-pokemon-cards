@@ -6,7 +6,7 @@ console.log(data[0]);
 
 const ul = document.querySelector("ul");
 
-//function createAndAppendPokemonCard(pokemonJSObject) {
+
 const li = document.createElement("li");
 const h2 = document.createElement("h2");
 const img = document.createElement("img");
@@ -30,4 +30,4 @@ for (i = 0; i <= data[0].stats.length; i++) {
   cardLi.innerText =
     data[i].stats[i].stat.name + ":" + data[i].stats[i].base_stat;
 }
-//}
+
